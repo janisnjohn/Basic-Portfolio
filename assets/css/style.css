@@ -1,0 +1,67 @@
+
+
+.nav {
+	background-color: #fff;
+	list-style-type: none;
+	float: right;
+	padding: 8px;
+	width: 1520px;
+	text-align:right;
+
+}
+.nav ul li a{
+	text-decoration: none;
+
+}
+.nav ul li{
+
+	font-family:arial;
+	padding: .2em 1em;
+	color:#000;
+	background-color: #0008080;
+	display: inline;
+	font-size: 24px;
+}
+.wrapper2{
+	margin-left: 30px;
+	margin-top: 30px;
+}
+#top {
+	margin-left: 25px;
+}
+body{
+	box-sizing: border-box;
+	background-color: #c0c0c0;
+	margin:10px;
+}
+#social{
+	float:right;
+	box-sizing: border-box;
+	background-color: #fff;
+	padding:20px;
+	text-align: center;
+}
+#Bio-Image{
+	float: left;
+	padding: 20px;
+}
+p {
+	padding: 20px;
+	font-size: 18px;
+}
+
+h1 {
+	font-family: arial;
+	color: #fff;
+	background-color: #008080;
+	padding:20px;
+	position:fixed;
+	margin-left: 45px;
+	margin-top: 0px;
+	width: 175px;
+	text-align: center;
+}
+h2 {
+	font-family: arial;
+
+}
