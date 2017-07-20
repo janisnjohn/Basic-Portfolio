@@ -6,35 +6,46 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-	<header>
-		<h1>John Lee</h1>
-		<div id="top"></div>
-	</header>
-	<div class="nav">
-		<ul>	
-			<li><a href="index.html">About</a></li>
-			<li><a href="Portfolio.html">Portfolio</a></li>
-			<li><a href="Contact.html">Contact</a></li>
-		</ul>
-	</div>
+	<div class="header">
+		<div class="container">
+			<h1>John Lee</h1>
+		</div>
+		<div class="nav">
+			<ul>	
+				<li><a href="index.html" style="border-right: 1px solid;">About</a></li>
+				<li><a href="Portfolio.html" style="border-right: 1px solid;">Portfolio</a></li>
+				<li><a href="Contact.html">Contact</a></li>
+			</ul>
+		</div>
+	</div>	
 	<section>
 		<div class="wrapper2">
 			<h2>Contact</h2>
-			Name <br>
-			<input type="Name" name="Name"> <br>
-			Email <br>
-			<input type="Email" name="Email"> <br>
-			Message <br>
-			<input type="Message" name="Message"> <br>
+			<div id="Contact">
+				Name <br>
+				<input type="text" placeholder="ex. John Doe" size="50"> <br>
+				Email <br>
+				<input type="text" placeholder="ex. JohnDoe@gmail.com" size="50"> <br>
+				Message <br>
+				<input type="text" placeholder="" style="height:200px; width:600px;"> <br>
+				<div class="box">Submit</div>
+				<br>
+			</div>
 		</div>
-			<div id="social">
-				<h2>Connect with me</h2>
-			
-				<a href="https://github.com/janisnjohn/Basic-Portfolio"><img src="assets/images/GitHub_icon.png" width="40px" height="40px" hspace="10"></a>
-				<a href="https://www.linkedin.com/in/john-lee-a2184324"><img src="assets/images/linkedin_icon.png" width="40px" height="40px" hspace="10"></a>
-				<a href=""><img src="assets/images/stackoverflow_icon.png" width="40px" height="40px" hspace="10"></a>
+			<div class="social">
+				<h3>Connect with Me</h3>
+				<div id="SocialIcon">
+					<a href="https://github.com/janisnjohn/Basic-Portfolio"><img src="assets/images/github.png" width="60px" style="padding-right:10px;"></a>
+					<a href="https://www.linkedin.com/in/john-lee-a2184324"><img src="assets/images/linkedin.png" width="60px" style="padding-right:10px;"></a>
+					<a href="#"><img src="assets/images/overflow.png" width="60px"></a>
+				</div>
 			</div>
 	</section>
-
+<footer>
+	<div class="foot">
+	<h5>&copy; Copyright 2017 John Lee. All Rights Reserved.</h5>
+	</div>
+</footer>
 </body>
+
 </html>
